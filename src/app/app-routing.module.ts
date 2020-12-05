@@ -15,7 +15,7 @@ const routes: Routes = [
   ,
   {path:'education' ,component:EducationComponent},
   {path:'experience' ,component: ExperienceComponent},
-  {path:'',component: ReferenceComponent}
+  {path:'reference',component: ReferenceComponent}
 ];
 @NgModule({
   imports: [

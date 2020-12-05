@@ -1,7 +1,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(26, 126, 126, 0.863)
 }
 
 .topnav a {
@@ -10,7 +10,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .topnav a:hover {

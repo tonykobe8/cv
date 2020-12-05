@@ -29,3 +29,12 @@ height: 240px;
 }ion-icon {
   font-size: 24px;
 }
+ion-grid{
+  border-color: black;
+ border-style: solid;
+}
+ion-item{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}

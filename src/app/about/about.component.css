@@ -21,4 +21,11 @@
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}p{
+  background-color: rgb(114, 155, 141);
+   border-color:blue;
+ border-style: solid;
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
 }

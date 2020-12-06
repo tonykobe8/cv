@@ -26,5 +26,8 @@ ion-icon {
 }ion-item{
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
-  
+   
+}ion-card{
+  border-color: blue;
+ border-style: solid;
 }

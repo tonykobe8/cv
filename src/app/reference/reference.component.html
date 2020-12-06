@@ -1,3 +1,25 @@
-<p>
-reference works!
+<div class="topnav">
+<a href routerLink="/">Home</a>
+<a href routerLink="/about">About</a>
+<a href routerLink="/contact">Contact</a>
+<a href routerLink="/education">Education</a>
+<a href routerLink="/experience">Experience</a>
+<a href routerLink="/reference">Reference</a>
+</div>
+<ion-item></ion-item>
+<ion-item text-wrap>
+<p *ngFor='let ref of reference'>
+  Contact person : {{ref.Name}} {{ref.sname}}<br>
+  Contact  Details : {{ref.tel}} or {{ref.email}} <br>
+  Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
 </p>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+<ul *ngFor='let ref of reference1'>
+  Contact person : {{ref.Name}} {{ref.sname}}<br>
+  Contact  Details : {{ref.tel}}  {{ref.email}} <br>
+  Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
+
+</ul>
+</ion-item>
+<li>Angular</li>
+<l>Ionic</li>

@@ -21,6 +21,8 @@ h2{
 .topnav a:hover {
   background-color: #ddd;
   color: blue;
+}ion-card-content{
+  border:solid ;
 }
 
 .topnav a.active {
@@ -28,4 +30,8 @@ h2{
   color: white;
 }img {
   border-radius: 8px;
+}
+ion-item{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }

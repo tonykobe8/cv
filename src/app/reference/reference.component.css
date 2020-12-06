@@ -21,9 +21,21 @@
 }p{ border-style: solid;
   background-color: gray;
   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
 }
 ul{
 font-family: 'Times New Roman', Times, serif;
 background-color: burlywood;
  border-style: solid;
+  font-size: 20px;
+}
+li{
+  background-color: rgb(18, 18, 158);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:whitesmoke;
+}h1{
+   font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+  color:brown
 }

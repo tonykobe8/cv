@@ -6,20 +6,23 @@
 <a href routerLink="/experience">Experience</a>
 <a href routerLink="/reference">Reference</a>
 </div>
-<ion-item></ion-item>
+
+<ion-item></ion-item><h1>Referee  :</h1>
 <ion-item text-wrap>
 <p *ngFor='let ref of reference'>
   Contact person : {{ref.Name}} {{ref.sname}}<br>
-  Contact  Details : {{ref.tel}} or {{ref.email}} <br>
+  Contact  Details:{{ref.tel}} or {{ref.email}} <br>
   Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
 <ul *ngFor='let ref of reference1'>
   Contact person : {{ref.Name}} {{ref.sname}}<br>
-  Contact  Details : {{ref.tel}}  {{ref.email}} <br>
+  Contact  Details: {{ref.tel}}  {{ref.email}} <br>
   Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
-
 </ul>
 </ion-item>
+<h1>Programming Languages :</h1>
 <li>Angular</li>
-<l>Ionic</li>
+<li>Ionic</li>
+<li>HTML</li>
+<li>CSS</li>

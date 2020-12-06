@@ -1,4 +1,8 @@
-
+h2{
+  font-size: 18px;
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
 .topnav {
   overflow: hidden;
   background-color: rgba(26, 126, 126, 0.863)

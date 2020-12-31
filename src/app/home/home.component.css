@@ -38,10 +38,11 @@ ion-item{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px; 
 }a{
-  font-size: 22px;
+  font-size: 22px;font-family: 'Times New Roman', Times, seri;
+}body{
+  background-color: blue;
 }
-
 ion-label{
-  font-size: px;
-  color:black
+  font-size: 18px;
+  color:black;font-family: 'Times New Roman', Times, seri;
 }

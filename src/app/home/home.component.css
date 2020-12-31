@@ -37,4 +37,11 @@ ion-grid{
 ion-item{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px; 
+}a{
+  font-size: 22px;
+}
+
+ion-label{
+  font-size: px;
+  color:black
 }

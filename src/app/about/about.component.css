@@ -47,4 +47,10 @@ padding: 0 !important;
 padding-top: 1.5rem !important;
 padding-bottom: 1.5rem !important;
       }
-    
+    li{
+      font-family: 'Times New Roman', Times, serif;
+      color:blue;
+    }
+    h3{ color:brown;
+      font-family: 'Times New Roman', Times, serif;
+    }
